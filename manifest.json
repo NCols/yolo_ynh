@@ -1,0 +1,17 @@
+{
+    "name": "Yolo Mac Nuggets",
+    "id": "yolo",
+    "description": {
+        "en": "swag du slip"
+    },
+    "license": "GPL-3+",
+    "maintainer": {
+        "name": "bram",
+        "email": "cortex@worlddomination.be",
+        "url": "http://worlddomination.be"
+    },
+    "multi_instance": "false",
+    "arguments": {
+        "install" : []
+    }
+}

