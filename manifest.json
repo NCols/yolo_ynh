@@ -4,14 +4,25 @@
     "description": {
         "en": "swag du slip"
     },
+    "requirements": {
+        "yunohost": ">> 2.4.0"
+    },
     "license": "GPL-3+",
     "maintainer": {
         "name": "bram",
         "email": "cortex@worlddomination.be",
         "url": "http://worlddomination.be"
     },
-    "multi_instance": "false",
+    "multi_instance": "true",
     "arguments": {
-        "install" : []
+        "install" : [
+            {
+                "name": "ssh_pub_key",
+                "ask": {
+                    "en": "The ssh pub key of the person to which you want to give access to your YunoHost (this access will be revoked once the app is removed)"
+                },
+                "example": "Something that looks like : ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCz54a9Yt1u3Crn1xs1...."
+            }
+        ]
     }
 }
